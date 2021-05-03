@@ -1,0 +1,29 @@
+body{
+	background-color: #fff;
+	color: #002B54;
+	margin: auto;
+}
+a{
+	color: #002B54;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	text-decoration: underline;
+}
+table{
+	margin-left: 125px;
+}
+ul{
+	list-style-type: none;
+	margin: auto;
+}
+tr{
+	font-size: 35px;
+}
+li{
+	font-size: 25px;
+	width: auto;
+}
+td{
+	vertical-align: top;
+}
