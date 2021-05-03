@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styleee.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="https://www.esiee.fr/sites/all/themes/custom/esiee_theme/favicon.ico" type="image/vnd.microsoft.icon">
+	<title>Mini-Projet 2020</title>
+</head>
+<body>
+	<div id="contenu">
+		<div id="header">
+			<div id="factice"><a href="../factice/index.html">Ce site est factice</a></div>
+			<h1 id="logo">
+				<a href="../accueil/iindex.html" title="Page d'accueil"><img id="imglogo" src="../images/logo.png" alt="Logo"></a>
+			</h1>
+			<div id="main_nav">
+				<ul id="main_menu">
+					<li><a href="../accueil/iindex.html">Accueil</a></li>
+					<li><a href="index.html" style="color: white;">Actualités</a></li>
+					<li><a href="../logement/index.html">Logements</a></li>
+					<li><a href="../factice/index.html" style="width: 200px;">Mentions Légales</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="page">
+			<div id="covid" class="actu_bloc">
+				<div class="first_article">
+					<a href="../images/covid19.jpg" title="Informations Coronavirus" target="_blank"><img style="width: 800px; margin-left: 100px; margin-right: 100px;" src="../images/covid19.jpg" alt="Informations Coronavirus" title="Rentrée 2020 - Informations Coronavirus"></a>
+				</div>
+				<div class="first_text">
+					<a href="#covid"><h1 class="first_titre">Rentrée 2020 - Information Coronavirus</h1></a>
+					<p class="first_para">Nous vous rappelons que suite aux mesures du gouvernement et à l'évolution du virus il est indispensable de porter un masque dans les espaces clos et de respecter les gestes barrières. Prenez soin de vous et de vos proches.</p>
+				</div>
+				<div class="boutton">
+					<ul>
+						<li>
+							<button title="Lire plus tard" class="button" onclick="switchImg1()"><img  src="../images/savew.svg" id="imgToSwitch1"></button>
+						</li>
+						<li>
+							<a class="link_button" href="#covid">Covid-19</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr style="width: 800px;">
+			<div id="actu" class="secondary_article" style="height: 120px;">
+				<div class="secondary_article_title" >
+					<div class="secondary_article_img">
+						<a href="../images/amis.jpg" target="_blank"><img style="height: 165px; " src="../images/amis.jpg" alt="actu" title="Actu - Où passer le deuxième confinement" ></a>
+					</div>
+					<div class="secondary_titre">
+						<a href="#actu">Actu - Où passer le deuxième confinement</a>
+					</div>
+				</div>
+				<div class="secondary_para">
+					<p align="justify" >Après l'annonce du reconfinement, nombreux sont ceux qui ont su tirer leçon de leur premier confinement au printemps dernier. Alors, rester chez ses parents pour plus de confort, partir entre amis pour plus de liberté ou encore rester seul dans son studio ? Quel option avez vous choisie ?</p>
+				</div>
+				<div class="boutton" style="margin-left: -100px;">
+					<ul>
+						<li>
+							<button title="Lire plus tard" class="button" onclick="switchImg2()"><img  src="../images/savew.svg" id="imgToSwitch2"></button>
+						</li>
+						<li>
+							<a class="link_button" href="#actu">Confinement</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr style="width: 800px;">
+			<div id="cerveau" class="secondary_article" style="height: 190px;">
+				<div class="secondary_article_title">
+					<div class="secondary_article_img">
+						<a href="../images/cerveau.jpg" target="_blank"><img style="height: 220px;" src="../images/cerveau.jpg" alt="cerveau" title="Santé - Les recettes faciles qui peuvent améliorer votre mémoire"></a>
+					</div>
+					<div class="secondary_titre" style="width: 369px;">
+						<a href="#cerveau" >Santé - Les recettes faciles qui peuvent améliorer votre mémoire</a>
+					</div>
+				</div>
+				<div class="secondary_para" style="width: 475px;">
+					<p align="justify" >Ces formules de physique ne veulent pas rentrer ? A vos Fourneaux ! Il est bien connu que les poissons comme le Saumon la truite ou le thon ameillorent nos capacités memorielles , sachez cependant qu'il existe des recettes vegans à base d'huile de lin ou de colza qui ont les mêmes effets alors... Bon Appetit !</p>
+				</div>
+				<div class="boutton" style="margin-left: -100px;">
+					<ul>
+						<li>
+							<button title="Lire plus tard" class="button" onclick="switchImg3()"><img  src="../images/savew.svg" id="imgToSwitch3"></button>
+						</li>
+						<li>
+							<a class="link_button" href="#cerveau">Santé</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+           
+		</div>
+		<div id="footer">
+			<div id="mentions">
+				<ul>
+					<li class="first">
+						<a href="../index/factice.html">Crédits </a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../index/factice.html">Contacts</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../index/factice.html">Mentions légales</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../index/factice.html">Conditions d'utilisation</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../index/factice.html">Confidentialité</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../index/factice.html">Information importante</a>
+					</li>
+				</ul>
+				<p class="haut_de_page">
+					<a href="#header">&#129137; &nbsp; Haut de page</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

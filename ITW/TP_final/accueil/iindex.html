@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="https://www.esiee.fr/sites/all/themes/custom/esiee_theme/favicon.ico" type="image/vnd.microsoft.icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Mini-Projet 2020</title>
+</head>
+<body>
+	<div id="contenu">
+		<div id="header">
+			<div id="factice"><a href="../factice/index.html">Ce site est factice</a></div>
+			<h1 id="logo">
+				<a href="index.html" title="Page d'accueil">
+					<img id="imglogo" src="../images/logo.png" alt="Logo">
+				</a>
+			</h1>
+			<div id="main_nav">
+				<ul id="main_menu">
+					<li>
+						<a href="index.html" style="color: white;">Accueil</a>
+					</li>
+					<li>
+						<a href="../actualité/index.html" >Actualités</a>
+					</li>
+					<li>
+						<a href="../logement/index.html" >Logements</a>
+					</li>
+					<li>
+						<a href="../factice/index.html" style="width: 200px;">Mentions Légales</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="page">
+			<div class="defilant_image">
+				<ul id="slides">
+				    <li class="slide showing">
+				    	<a href="https://www.w3schools.com/" title="Cliquez pour accéder à w3schools.com" target="_blank">
+							<div class="degrade"></div>
+	                    	<div class="infos">  
+			  	  	    		<h2 class="title">Découvrir les<br>technologies<br>du web</h2>
+			  	  	    		<p class="subtitle">Envie de créer son propre site ?<br> C'est le moment !</p>
+			  	  	    		<p class="location">Apprenez avec w3schools.com<br>The world's largest web developer site.</p>
+							</div>
+	                    </a>
+				    </li>
+				    <li class="slide">
+				    	<a href="https://esiee.jobteaser.com/fr/users/sign_in?back_to_after_login=%2F" title=" Cliquez pour accéder à esiee.jobteaser.com" target="_blank">
+	                    	<div class="degrade"></div>
+	                    	<div class="infos">  
+			  	  	    		<h2 class="title">Vous cherchez<br>un job ?</h2>
+			  	  	    		<p class="subtitle">JobTeaser, votre plateforme carrière.<br>Leader européen du recrutement<br>des jeunes talents !</p>
+			  	  	    		<p class="location">Conseil, stage, alternance, emploi.<br>Sans prise de tête.</p>
+							</div>
+	                    </a>
+				    </li>
+				    <li class="slide">
+				    	<a href="https://www.yesmag.fr/" title="Cliquez pour accéder à yesmag.fr" target="_blank">
+	                    	<div class="degrade"></div>
+	                    	<div class="infos">  
+			  	  	    		<h2 class="title">Yesmag<br>le magazine<br>anglais</h2>
+			  	  	    		<p class="subtitle">Envie d'apprendre l'anglais ? C'est le moment !</p>
+			  	  	    		<p class="location">Rendez-vous sur yesmag.fr</p>
+							</div>
+	                    </a>
+				    </li>
+				    <li class="slide">
+				    	<a href="https://timecalendar.app/" title="Cliquez pour accéder à timecalendar.app" target="_blank">
+	                    	<div class="degrade"></div>
+	                    	<div class="infos">  
+			  	  	    		<h2 class="title">Marre de<br><span style="text-transform: lowercase;">planif.esiee.fr</span> ?</h2>
+			  	  	    		<p class="subtitle">Consultez votre emploi du temps<br>universitaire sur TimeCalendar.</p>
+			  	  	    		<p class="location">Installez l'application ou consultez <br>sur le site timecalendar.app</p>
+							</div>
+	                    </a>
+				    </li>
+				</ul>
+				
+				<a class="controls" id="previous">&#129136;</a>
+				<a class="controls" id="next">&#129138;</a>
+				<div class="cycle_controls">
+					<a class="controls" id="pause">⏸</a>
+              		<div class="cycle_page">
+              			<a id="page1">1</a>
+              			<a id="page2">2</a>
+              			<a id="page3">3</a>
+              			<a id="page4">4</a>
+              		</div>
+              	</div>
+            </div>
+            <div class="bloc_article">
+            	<ul class="article_list">
+            		<li>
+            			<a href="index.html" title="Cliquez pour voir les applications">
+            				<div class="article_description">
+            					<div class="container">
+									<img src="../images/miniyesmag.jpg" alt="yesmag">
+									<div class="overlay">Application - Yesmag, the magazine anglais !</div>
+								</div>
+            					<p class="theme">Accueil</p>
+            					<p class="article_titre">Les applications utiles</p>
+            				</div>
+            			</a>
+            		</li>
+            		<li>
+            			<a href="../actualité/index.html" title="Cliquez pour lire l'article">
+            				<div class="article_description">
+            					<div class="container" style="background-color: rgb(1,6,28,0.7);">
+									<img src="../images/cerveau.jpg" alt="article" style="width: auto;margin: auto;">
+									<div class="overlay">Santé - Les recettes faciles qui peuvent améliorer votre mémoire.</div>
+								</div>
+            					
+            					<p class="theme">Actualité</p>
+            					<p class="article_titre">Nos articles</p>
+            				</div>
+            			</a>
+            		</li>
+            		<li>
+            			<a href="../logement/index.html" title="Cliquez pour voir l'annonce">
+            				<div class="article_description">
+            					<div class="container">
+									<img src="../images/chambre3.jpg" alt="logement" >
+									<div class="overlay">Appartement - 3p • 1ch • 45m² • 1 terrasse - Paris 7ème</div>
+								</div>
+            					<p class="theme">Logement</p>
+            					<p class="article_titre">Le meilleur rapport qualité-prix</p>
+            				</div>
+            			</a>
+            		</li>
+            	</ul>
+            </div>
+		</div>
+		<div id="footer">
+			<div id="mentions">
+				<ul>
+					<li class="first">
+						<a href="../factice/index.html">Crédits </a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../factice/index.html">Contacts</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../factice/index.html">Mentions légales</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../factice/index.html">Conditions d'utilisation</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../factice/index.html">Confidentialité</a>
+					</li>
+					<li class="point">
+						&#8226;
+					</li>
+					<li>
+						<a href="../factice/index.html">Information importante</a>
+					</li>
+				</ul>
+				<p class="haut_de_page">
+					<a href="#header">&#129137; &nbsp; Haut de page</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+body{
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 24.6%, rgba(255,255,255,1) 30.4%,rgba(135,206,250,0.4) 100%), url("../images/eiffel0.jpg") 50% 0 repeat-x;
+    font-family: Roboto, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 68.8%;
+    background-repeat: no-repeat;
+}
+/*contenu de la page*/
+#contenu {
+    background: #222;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    position: relative;
+}
+
+/*En-tête*/
+#header {
+    height: 109px;
+}
+
+#factice{
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 8px;
+    color: red;
+    font-size: 16px;
+    height: 22px;
+    text-transform: uppercase;
+    background-image: url(../images/factice.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+
+}
+#factice a{
+  text-decoration: none;
+  color: red;
+}
+#factice a:hover{
+  text-decoration: underline;
+}
+
+/*logo*/
+#logo {
+    margin: 0px 0 27px 0;
+    float: left;
+}
+#logo img, #logo a {
+    display: block;
+}
+#imglogo{
+  	width: auto;
+  	height: auto;
+}
+a {
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/********************************************************************************************************************************************/
+
+
+
+
+/*barre de menu*/
+#main_nav{
+    clear: right;
+}
+#main_menu {
+    float: left;
+    padding: 30px 0px 0px 30px;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+#main_menu li {
+	  font-size: 14px;
+	  width: 150px;
+    display: block;
+    border-left: 1px solid #434343;
+    float: left;
+    position: relative;
+}
+#main_menu li a {
+    font-family: Lora,serif;
+    font-size: 125%;
+    text-align: left;
+    display: block;
+    padding: 0 10px 0 10px;
+    color: #808080;
+    text-transform: uppercase;
+}
+#main_menu li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+/********************************************************************************************************************************************/
+
+
+
+
+/*page*/
+#page{
+	background: #fff;
+    display: inline-block;
+    display: block;
+    padding-top: 10px;
+
+}
+.mentions{
+    width: 100%;
+    position: relative;
+}
+.legales{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.legales h1{
+    font-size: 2.90em;
+    font-weight: 500;
+    font-family: Lora,serif;
+}
+
+.legales h2{
+    font-weight: bold;
+    font-size: 1.45em;
+    padding: 32px 0 0 0;
+    color: #000;
+    clear: both;
+}
+.legales h3{
+    font-weight: bold;
+    font-size: 1.55em;
+    padding: 16px 0 0 0;
+    color: red;
+    text-transform: uppercase;
+}
+
+.legales p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 18px 0 0 0;
+    color: #000;
+}
+
+.legales ul li{
+    list-style: square;
+}
+.legales a{
+    color: #428bca;
+    cursor: pointer;
+}
+
+.legales a:hover{
+    color: #2A6496;
+    text-decoration: underline;
+}
+
+/********************************************************************************************************************************************/
+
+/*footer*/
+#footer {
+    clear: both;
+    overflow: hidden;
+    background: #222;
+}
+/*mentions*/
+#mentions {
+    font-size: 1.2em;
+    margin-top: -1px;
+    border-top: none;
+    border-top: 1px solid #4E4E4E;
+    padding: 22px 32px 17px 0px;
+    overflow: hidden;
+    zoom: 1;
+}
+#mentions ul{
+    float: left;
+    padding-left: 32px;
+    margin: 0;
+}
+#mentions li.first {
+    background: 0;
+}
+#mentions li {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+#mentions li.point{
+    margin: 0;
+    color: white;
+}
+#mentions li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mentions .haut_de_page{
+    float: right;
+}
+#footer p{
+    padding-bottom: 2px;
+    margin: 0;
+    font-size: 0.85em;
+}
+.haut_de_page a {
+    color: #a7a8aa;
+    border: 1px solid #3d3d3d;
+    display: inline-block;
+    padding: 0 5px 1px 8px;
+}
+.haut_de_page a:hover {
+    text-decoration: none;
+    background-color: #4a4a4a;
+    color: #fff;
+}
