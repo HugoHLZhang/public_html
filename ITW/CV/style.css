@@ -1,0 +1,11 @@
+.imageflottante
+{
+	float: left;
+}
+body
+{
+	background-image: url("images/fond.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: #fff;
+}
