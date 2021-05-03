@@ -1,0 +1,34 @@
+body{
+	background-color: #fff;
+	color: #002B54;
+	margin: auto;
+}
+a{
+	color: #002B54;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	text-decoration: underline;
+}
+.texteflottant{
+	float: left;
+}
+table{
+	margin-left: 125px;
+	list-style-type: none;
+}
+tr{
+	font-size: 35px;
+}
+li{
+	font-size: 25px;
+	width: 300px;
+}
+ul{
+	list-style-type: none;
+
+}
+td{
+	vertical-align: top;
+
+}
