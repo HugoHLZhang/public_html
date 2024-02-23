@@ -1,0 +1,534 @@
+body{
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 51%,rgba(255,255,255,1) 63.5%, rgba(135,206,250,0.2)100%), url("../images/eiffel0.jpg") 50% 0 repeat-x;
+    font-family: Roboto, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 68.8%;
+    background-repeat: no-repeat;
+}
+/*contenu de la page*/
+#contenu {
+    background: #222;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    position: relative;
+}
+
+/*En-tête*/
+#header {
+      height: 109px;
+}
+
+#factice{
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 8px;
+    color: red;
+    font-size: 16px;
+    height: 22px;
+    text-transform: uppercase;
+    background-image: url(../images/factice.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+
+}
+#factice a{
+  text-decoration: none;
+  color: red;
+}
+#factice a:hover{
+  text-decoration: underline;
+}
+
+/*logo*/
+#logo {
+    margin: 0px 0 27px 0;
+    float: left;
+}
+#logo img, #logo a {
+    display: block;
+}
+#imglogo{
+    width: auto;
+    height: auto;
+}
+a {
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*************************************************************************************/
+
+
+
+
+/*barre de menu*/
+#main_nav{
+    clear: right;
+}
+#main_menu {
+    float: left;
+    padding: 30px 0px 0px 30px;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+#main_menu li {
+      font-size: 14px;
+      width: 150px;
+    display: block;
+    border-left: 1px solid #434343;
+    float: left;
+    position: relative;
+}
+#main_menu li a {
+    font-family: Lora,serif;
+    font-size: 125%;
+    text-align: left;
+    display: block;
+    padding: 0 10px 0 10px;
+    color: #808080;
+    text-transform: uppercase;
+}
+#main_menu li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/*********************************************************************************/
+/*page*/
+#page{
+    background-color: white;
+    clear: both;
+    padding-bottom: 6px;
+
+}
+.annonce_background{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding-top: 24px;
+}
+
+.annonce_box{
+    background-color: white;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.14);
+    transition: transform 0.2s;
+    transform: box-shadow 1s;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    flex-grow: 1;
+    border-radius: 0 8px 8px 0;
+    color: #2b2b2b;
+    flex-flow: row wrap;
+    width: 800px;
+    margin-left: 100px;
+    margin-bottom: 24px;
+}
+.annonce_box:hover{
+  
+  border-radius: 0 8px 8px 0;
+  background-color: white;
+  box-shadow:  0px 2px 10.1px 2px rgba(0,0,0,0.16);
+
+}
+.annonce{
+  width: 1000px;
+  height: 250px;
+}
+
+/********************************************************************************************************************************************/
+
+.annonce_text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  width: calc(100% - 363px);
+  width: auto;
+  height: 228px;
+  padding: 16px;
+}
+
+.annonce_text .title{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-shrink: 0;
+    height: 60px;
+}
+.appart{
+      color: #2b2b2b;
+    font-size: 16px;
+    line-height: 22px;
+}
+.surface{
+  margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.surface li{
+  display: inline;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  -webkit-box-pack: end;
+  flex-shrink: 0;
+  margin-left: 105px;
+}
+.prix{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    -webkit-box-align: baseline;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+}
+.coup{
+      display: flex;
+    font-size: 12px;
+      align-self: flex-start;
+    margin-left: 2px;
+}
+.mois{
+  display: flex;
+    font-size: 12px;
+    margin-left: 4px;
+}
+.annonce_text .adresse{
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+  flex-direction: column;
+}
+.annonce_text .adresse span{
+    font-size: 16px;
+    display: block;
+    color: #00819e;
+}
+.annonce_text .description{
+      flex-direction: column;
+    position: relative;
+    font-size: 13px;
+    color: #707070;
+    opacity: 0.95;
+    line-height: 18px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    height: 80px;
+    width: 268px;
+}
+
+/********************************************************************************************************************************************/
+
+
+.defilant_image {
+    float: left;
+    position: relative;
+    zoom: 1;
+}
+/* Hide the images by default */
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {display: none}
+img { width: 400px; height: 250px;}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 24px;
+  height: 23px;
+  float: none;
+  color: black;
+  padding: 4px;
+  font-size: 16px;
+  transition: 0.6s ease;
+  user-select: none;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 8;
+}
+.prev{
+  left: 10px;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0s;
+  animation-name: fade;
+  animation-duration: 0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.photo{
+  display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 30;
+    display: flex;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-right: 6px;
+    align-items: center;
+}
+.appareil{
+    display: inline-block;
+    width: 31px;
+    height: 14px;
+    color: white;
+}
+
+.appareil img{
+  display: inline-block;
+  width: 16px;
+  height: auto;
+  margin-right: 6px;
+  margin-bottom: -2px;
+}
+
+.heart{
+}
+button{
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    bottom: 16px;
+    width: 160px;
+    justify-content: space-between;
+    height: 40px;
+    color: #2b2b2b;
+    border: solid #707070 1px;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    margin-bottom: 10px;
+    background: none;
+}
+:focus{
+    outline: 0px;
+}
+button:hover{
+  color: red;
+}
+.coeur{
+    font-family: "Segoe UI";
+    font-size: 30px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.sauvegarder{
+  color: black;
+}
+
+.agence{
+    display: flex;
+    position: absolute;
+    bottom: 26px;
+    right: 40px;
+    z-index: 3;
+    flex-direction: column;
+    width: 60px;
+}
+.globe{
+  position: absolute;
+    z-index: 31;
+    right: -33px;
+    top: -15px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #ccd1d9;
+}
+.globe_icon{
+  display: inline-block;
+    width: 14px;
+    height: 14px;
+    color: #929292;
+}
+.globe_icon img{
+    display: block;
+    fill: currentColor;
+    width: 100%;
+    height: 100%;
+}
+
+.exclu{
+  border-radius: 4px;
+    margin-right: 4px;
+    z-index: 30;
+    background-color: #ffffff;
+    padding: 5px;
+    color: #e00034;
+    position: absolute;
+    font-weight: normal;
+    top: -15px;
+    left: 1px;
+    font-size: 13px;
+}
+.agence_annonce{
+  overflow: hidden;
+    border: solid 1px #eaeaea;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    cursor: default;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.agence_lien{
+          display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: calc(100%);
+}
+.agence_logo{
+  background-image: url(../images/logo_particulier_150.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: calc(100%);
+    height: 30px;
+}
+.particulier{
+  font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    width: calc(100%);
+}
+
+
+
+
+/********************************************************************************************************************************************/
+
+
+
+
+/********************************************************************************************************************************************/
+
+/*footer*/
+#footer {
+    clear: both;
+    overflow: hidden;
+    background: #222;
+}
+/*mentions*/
+#mentions {
+    font-size: 1.2em;
+    margin-top: -1px;
+    border-top: none;
+    border-top: 1px solid #4E4E4E;
+    padding: 22px 32px 17px 0px;
+    overflow: hidden;
+    zoom: 1;
+}
+#mentions ul{
+    float: left;
+    padding-left: 32px;
+    margin: 0;
+}
+#mentions li.first {
+    background: 0;
+}
+#mentions li {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+#mentions li.point{
+    margin: 0;
+    color: white;
+}
+#mentions li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mentions .haut_de_page{
+    float: right;
+}
+#footer p{
+    padding-bottom: 2px;
+    margin: 0;
+    font-size: 0.85em;
+}
+.haut_de_page a {
+    color: #a7a8aa;
+    border: 1px solid #3d3d3d;
+    display: inline-block;
+    padding: 0 5px 1px 8px;
+}
+.haut_de_page a:hover {
+    text-decoration: none;
+    background-color: #4a4a4a;
+    color: #fff;
+}
