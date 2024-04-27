@@ -1,2 +1,1 @@
-# public_html
-# public_html.github.io
+Site web de mon école en HTML CSS JS
